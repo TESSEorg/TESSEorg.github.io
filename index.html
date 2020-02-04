@@ -1,102 +1,160 @@
 <html>
-<body>
-<div id="minsbu-content">
-  
-  <a id="main-content"></a>
-  <h1 class="title" id="page-title">Task-based Environment for Scientific Simulation at Extreme Scale (TESSE)</h1>
-<div class="tabs">
-</div>
-<div class="region region-content">
-<div id="block-system-main" class="block block-system">
-
-  
-<div class="content">
-<div class="panel-display panel-2col-bricks clearfix">
-<div class="panel-panel panel-col-top">
-<div class="inside"><div class="panel-pane pane-entity-field pane-node-body">
-  
-  
-  
-<div class="pane-content">
-<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h4 style="text-align: center;"><span style="font-size: 1em;">Challenges from Modern Computational Science</span></h4>
-  <ol><li>Advances in predictive, high-fidelity simulation characterized by increasingly irregular and dynamic computation (sparse, low-rank, etc).</li>
-  <li>Ongoing technology trends in heterogeneous architectures with dynamically changing performance, and need to increase concurrency at all scales</li>
-</ol><h4 style="text-align: center;"><strong>Goal of TESSE Project</strong></h4>
-<p>Using application-driven design to create a general-purpose and production-quality software framework that efficiently attacks the twin challenges of (1) programmer productivity and (2) protable performance for Advanced scientific applications on massively-parallel, hybrid, many-core systems of today and tomorrow.</p>
-<h4 style="text-align: center;">Targeted Objectives Towards the Goal of the Project</h4>
-<ul><li>Providing an extensible, robust and scalable directed acyclic graph (DAG) execution model supported by an intelligent and dynamic runtime that can adapt to changing requirements presented by the evolving numberical theories and HPC platforms. This objective can be accomplished by enhancing the current state of the art <a href="http://icl.cs.utk.edu/parsec/">PaRSEC</a> parallel runtime.</li>
-<li>Transforming the scalability of the key parts of existing numerical simulation codes by removing all control dependencies.</li>
-<li>Demonstrating the feasibility of such an approach through new science capabilities and proof-of-principle science studies in energy storage and catalysis through TESSE-enabled versions of general numerical computation code MADNESS and computational chemistry codes MPQC and Orca.</li>
-</ul><p><img src="images/tesse-project.jpg" width="514" height="286" style="display: block; margin-left: auto; margin-right: auto;"></p>
-<p>&nbsp;</p>
-<h4 style="text-align: center;">TESSE targeted Domains and Software</h4>
-<ul><li><a href="https://github.com/m-a-d-n-e-s-s/">MADNESS</a></li>
-<li><a href="https://github.com/ValeevGroup/tiledarray">Tiled Array</a></li>
-<li>Nanostructured Catalysts</li>
-<li>Nuclear Physics</li>
-<li>Others, to be introduced each project year</li>
-</ul><h4 style="text-align: center;">TESSE Programming Extensions</h4>
-<ul><li>Domain Specific extensions</li>
-<li>Task Granularity</li>
-<li>Data Distribution</li>
-<li>Data Type &amp; Serialization</li>
-<li>Object Creation &amp; Destruction</li>
-<li>Multiple Task &amp; Dag Submission and Coordination</li>
-</ul><p>&nbsp;</p>
-<h4 style="text-align: center;">TESSE Project Current State</h4>
-<ul><li>PaRSEC and MADNESS runtimes are now interoperable, i.e., MADNESS operations can be injected into the PaRSEC task queue.</li>
-<li>Exploring design and composability by implementing 1-D MADNESS operations in multipe paradigms (PaRSEC, Intel CnC, MADNESS, Python, ...)</li>
-</ul><p>&nbsp;</p>
-<h4 style="text-align: center;">Collaborators</h4>
-<ul><li><a href="http://www.iacs.stonybrook.edu/">IACS</a>,&nbsp;<a href="http://www.stonybrook.edu/">Stony Brook University</a></li>
-<ul><li>Robbert. J. Harrison</li>
-<li>W. Scott Thronton</li>
-<li>Mohammad Mahdi Javanmard</li>
-</ul><li><a href="http://www.icl.utk.edu/">ICL</a>,&nbsp;<a href="http://www.utk.edu/">The University of Tennessee, Knoxville</a></li>
-<ul><li>George Bosilca</li>
-<li>Thomas Herault</li>
-<li>Amina Guermouche</li>
-<li>Heike McCraw</li>
-</ul><li><a href="http://www.chem.vt.edu/">Department of Chemistry</a>,&nbsp;<a href="https://www.vt.edu/">Virginia Tech</a></li>
-<ul><li>Edward F. Valeev</li>
-<li>Justus A. Calvin</li>
-</ul></ul><h4>Grants</h4>
-<p>TESSE project is supported by the National Science Foundation under grant ACI-1450344 at Stony Brook University, ACI-1450262 at Virginia Tech, and ACI-1450300 at the University of Tennesse, Knoxville.</p>
-</div></div></div>  </div>
-
-
-</div>
-</div>
-</div>
-<div class="center-wrapper">
-<div class="panel-panel panel-col-first">
-<div class="inside"></div>
-</div>
-
-<div class="panel-panel panel-col-last">
-<div class="inside"></div>
-</div>
-</div>
-<div class="panel-panel panel-col-middle">
-<div class="inside"></div>
-</div>
-<div class="center-wrapper">
-<div class="panel-panel panel-col-first">
-<div class="inside"></div>
-</div>
-
-<div class="panel-panel panel-col-last">
-<div class="inside"></div>
-</div>
-</div>
-<div class="panel-panel panel-col-bottom">
-<div class="inside"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-</body>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  </head>
+  <body><br>
+    <br>
+    <div id="minsbu-content">
+      <h1 class="title" id="page-title">Production quality Ecosystem for
+        Programming and Executing eXtreme-scale Applications (EPEXA)</h1>
+      <p>EPEXA is an NSF-supported R&amp;D project that will create a
+        production-quality, general-purpose, community-supported, open-source
+        software ecosystem that attacks the twin challenges of programmer
+        productivity and portable performance for advanced scientific
+        applications on modern high-performance computers. Of special interest
+        are irregular and sparse applications that are poorly served by current
+        programming and execution models. </p>
+      <p>The project addresses central challenges from modern computational
+        science:</p>
+      <ul>
+        <li>
+          Advances in predictive, high-fidelity simulation are characterized by
+          increasingly irregular and dynamic computation (block sparse,
+          low-rank, mixed representations, etc.).</li>
+        <li>
+          Ongoing technology trend in heterogeneous architectures with
+          dynamically changing performance, and the need to increase concurrency
+          at all scales.</li>
+      </ul>
+      <p> EPEXA builds upon prior work performed by the TESSE (Task-based
+        Environment for Scientific Simulation at Extreme Scale) project, and in
+        particular aims to complete the design and provide robust implementation
+        of TESSE's main C++ API, the template task graph (TTG) that provides a
+        powerful data-flow programming model. Specific project aims include:</p>
+    </div>
+    <div>
+      <ul>
+        <li>To extend, complete, and harden the successful TESSE research
+          prototype providing its first production quality implementation using
+          a community-based, science-driven approach.</li>
+        <li>To grow and support the user community, associated applications, and
+          research use cases.</li>
+        <li>To create a community to design, maintain, support and to grow EPEXA
+          in the future.</li>
+        <li>To transform the scalability of key parts of new and existing
+          numerical simulation codes, including enabling the development of new
+          DSLs by utilizing the API of the EPEXA runtime, and by migration paths
+          for both applications and application programmers to follow.</li>
+      </ul>
+      <h3>Our community and their driving applications:</h3>
+      <ul>
+        <li>Robert Harrison and Mahdi Javanmard</li>
+        <ul>
+          <li><a href="http://www.iacs.stonybrook.edu/">IACS</a>,&nbsp;<a href="http://www.stonybrook.edu/">Stony
+              Brook University</a></li>
+          <li>multiresolution numerical analysis (<a href="https://github.com/m-a-d-n-e-s-s/madness">MADNESS</a>)
+            with applications to chemistry, material science, nuclear physics,
+            and others.</li>
+          <li>dynamic programming algorithms</li>
+        </ul>
+        <li>Edward Valeev</li>
+        <ul>
+          <li><a href="http://www.chem.vt.edu/">Department of Chemistry</a>,&nbsp;<a
+              href="https://www.vt.edu/">Virginia Tech</a></li>
+          <li>block-sparse tensor algebra (<a href="https://github.com/ValeevGroup/tiledarray">TiledArray</a>)</li>
+        </ul>
+        <li>George Bosilca and Thomas Herault</li>
+        <ul>
+          <li><a href="http://www.icl.utk.edu/">ICL</a>,&nbsp;<a href="http://www.utk.edu/">The
+              University of Tennessee, Knoxville</a></li>
+          <li>parallel programming and runtime (<a href="http://icl.utk.edu/parsec/">PaRSEC</a>)</li>
+        </ul>
+        <li>Scott Thornton</li>
+        <ul>
+          <li><a href="https://www.descarteslabs.com/">Descartes Labs</a></li>
+          <li>geospatial AI</li>
+        </ul>
+        <li>Florian Bischoff</li>
+        <ul>
+          <li><a href="https://bit.ly/2RZG2q0">Humboldt University, Berlin</a></li>
+          <li>computational chemistry ()</li>
+        </ul>
+        <li><a href="https://www.math.colostate.edu/%7Ebangerth/">Wolfgang
+            Bangerth</a></li>
+        <ul>
+          <li>Department of mathematics, Colorado State University</li>
+          <li><a href="https://www.dealii.org">deal.II</a> open-source
+            finite-element engineering and physics () </li>
+        </ul>
+      </ul>
+      <h3>EPEXA Software Ecosystem</h3>
+      <img src="file:///home/rjh/Devel/TESSEorg.github.io/images/epexa_software_ecosystem.jpg"
+        alt="EPEXA Software Ecosystem (image)" title="EPEXA Software Ecosystem">
+      <div class="tabs">
+      </div>
+      <div class="region region-content">
+        <div id="block-system-main" class="block block-system">
+          <div class="content">
+            <div class="panel-display panel-2col-bricks clearfix">
+              <div class="panel-panel panel-col-top">
+                <div class="inside">
+                  <div class="panel-pane pane-entity-field pane-node-body">
+                    <div class="pane-content">
+                      <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                        <div class="field-items">
+                          <div class="field-item even" property="content:encoded">
+                            <h3>Presentations and other resources</h3>
+                            <ul>
+                              <li>NSF CSSI 2020 PI meeting <a href="https://figshare.com/articles/Poster_CSSI_EPEXA_2020_pdf/11796048">poster</a></li>
+                            </ul>
+                            <h3>Funding</h3>
+                            <p>The EPEXA project is supported by the National
+                              Science Foundation under grants OAC-1931387 at
+                              Stony Brook University, OAC1931347 at Virginia
+                              Tech, and ACI-1450300 at the University of
+                              Tennesse, Knoxville.</p>
+                            <p>The TESSE project was supported by the National
+                              Science Foundation under grants ACI-1450344 at
+                              Stony Brook University, ACI-1450262 at Virginia
+                              Tech, and OAC-1931384 at the University of
+                              Tennesse, Knoxville.</p>
+                            <p><br>
+                            </p>
+                            <p><br>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="center-wrapper">
+                <div class="panel-panel panel-col-first">
+                  <div class="inside"></div>
+                </div>
+                <div class="panel-panel panel-col-last">
+                  <div class="inside"></div>
+                </div>
+              </div>
+              <div class="panel-panel panel-col-middle">
+                <div class="inside"></div>
+              </div>
+              <div class="center-wrapper">
+                <div class="panel-panel panel-col-first">
+                  <div class="inside"></div>
+                </div>
+                <div class="panel-panel panel-col-last">
+                  <div class="inside"></div>
+                </div>
+              </div>
+              <div class="panel-panel panel-col-bottom">
+                <div class="inside"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
